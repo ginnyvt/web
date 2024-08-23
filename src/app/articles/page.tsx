@@ -4,7 +4,6 @@ import { getPage } from '@/lib/pages'
 import { generateSeoMeta } from '@/lib/hepler'
 import { ArticleList } from '@/components/ArticleList'
 import MoreArticle from '@/components/MoreArticle'
-import SearchBox from '@/components/SearchBox'
 
 export async function generateMetadata() {
   const page = await getPage('articles')
